@@ -42,7 +42,7 @@ class student:
     def average(self):
         length = len(self.grades)
         avg = (sum(self.grades))/length
-        print(avg)
+        return avg
     
     def getHonorRoll(self):
         self.grades.sort(reverse=True)
